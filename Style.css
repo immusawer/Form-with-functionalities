@@ -1,0 +1,119 @@
+body {
+  background-image: url("pexels-scottwebb-305821.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "MyFont";
+}
+@font-face {
+  font-family: "MyFont";
+  src: url("Oswald-VariableFont_wght.ttf");
+}
+
+.form-container {
+  /* Change this to the path of your background image */
+
+  background-position: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 43px 67px 43px 67px;
+  -webkit-border-radius: 43px 67px 43px 67px;
+  -moz-border-radius: 43px 67px 43px 67px;
+  box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+input[type="text"],
+[type="Password"],
+[type="checkbox"],
+textarea,
+select {
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+textarea {
+  resize: vertical;
+  background-color: transparent;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+  padding: 19px;
+  border: #ddd;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.result-container {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 43px 67px 43px 67px;
+  -webkit-border-radius: 43px 67px 43px 67px;
+  -moz-border-radius: 43px 67px 43px 67px;
+  box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: -37px 10px 60px 0px rgba(0, 0, 0, 0.67);
+  color: #000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f400;
+}
